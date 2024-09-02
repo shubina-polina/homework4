@@ -33,9 +33,11 @@ public class Main {
         int years = 28;
         if (years >= 2 && years <= 6) {
             System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в детский сад");
-        } else if (years >= 7 && years <= 17) {
+        }
+        if (years >= 7 && years <= 17) {
             System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в школу");
-        } else if (years >= 18 && years <= 24) {
+        }
+        if (years >= 18 && years <= 24) {
             System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в университет");
         } else if (years > 24) {
             System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить на работу");
@@ -44,7 +46,8 @@ public class Main {
         int yearsOld = 5;
         if (yearsOld < 5) {
             System.out.println("Если возраст ребенка равен " + yearsOld + ", то ему нельзя кататься на аттракционе");
-        } else if (yearsOld >= 5 && yearsOld <= 14) {
+        }
+        if (yearsOld >= 5 && yearsOld <= 14) {
             System.out.println("Если возраст ребенка равен " + yearsOld + ", то можно кататься на аттракционе в сопровождении взрослого");
         } else if (yearsOld > 14) {
             System.out.println("Если возраст ребенка равен " + yearsOld + ", то можно кататься на аттракционе без сопровождения взрослого");
@@ -53,7 +56,8 @@ public class Main {
         int places = 16;
         if (places < 60) {
             System.out.println("Если занято " + places + ", то есть сидячие места");
-        } else if (places >= 60 && places <= 102) {
+        }
+        if (places >= 60 && places <= 102) {
             System.out.println("Если занято " + places + ", то есть только стоячие места");
         } else if (places >= 102) {
             System.out.println("Вагон полностью забит");
@@ -65,13 +69,13 @@ public class Main {
 
         if (one >= two && one >= three) {
             System.out.println("Большим числом является " + one);
-        } else if (two >= three && two >= one) {
+        }
+        if (two >= three && two >= one) {
             System.out.println("Большим числом является " + two);
-        } else if ( three >= one && three >= two);
+        } else if (three >= one && three >= two) ;
         System.out.println("Большим числом является " + three);
     }
 
-
-    }
+}
 
 
